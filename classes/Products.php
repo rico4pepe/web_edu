@@ -124,4 +124,28 @@ class Products
         }
 
     }
-}
+
+    function dropdownProducts(){
+        $conn = connect();
+        $user_query  = $conn->prepare("SELECT id, product_name FROM products_table");
+        $user_query->execute();
+
+
+        while($row = $user_query->fetch(PDO::FETCH_ASSOC)){
+            $product_id = $row['id'];
+           $product_name = $row['product_name'];
+
+            echo '<option value=" '. $product_id .'" >'.$product_name.'</option>';
+   }
+    }
+
+    function getPriceByProductId($productId){
+        $conn = connect();
+        
+        $users_query  = $conn->query("SELECT  Unit_Price FROM products_table where id = '$productId'");
+        $users_row = $users_query->fetch((PDO::FETCH_ASSOC));
+        $product_price = $users_row['Unit_Price'];
+        return $product_price;
+   }
+    }
+

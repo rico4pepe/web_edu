@@ -1227,7 +1227,7 @@ License: For each use you must have a valid license purchased only from above li
 												<label class="required form-label">Category Name</label>
 												<!--end::Label-->
 												<!--begin::Input-->
-												<input type="text" name="category_name" class="form-control mb-2" placeholder="Category name" value="<?php echo $category_name; ?>" required />
+												<input type="text" name="category_name" class="form-control mb-2" placeholder="Category name" value="<?php echo $category_name; ?>" />
 												<!--end::Input-->
 												<!--begin::Description-->
 												<div class="text-muted fs-7">A category name is required and recommended to be unique.</div>

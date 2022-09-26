@@ -1,9 +1,13 @@
 <?php
 require_once('../PhpConnections/connection.php');
 require_once('../classes/Staff.php');
+require_once('../classes/Annex.php');
+require_once('../utilites/Randomizer.php');
 
 
 $Staff = new Staff();
+$Annexes = new Annex();
+$GenerateValue = new Randomizer();
 ?>
 
 <!DOCTYPE html>
@@ -76,10 +80,23 @@ License: For each use you must have a valid license purchased only from above li
                                         $email = trim($_POST["email"]);
                                         $password = trim($_POST["password"]);
                                         $pass = password_hash($password, PASSWORD_BCRYPT);
+
+                                        $fos = trim($_POST["fos"]);
+                                        $qual = trim($_POST["qual"]);
+                                        $annex_id = trim($_POST["annex_id"]);
+                                        $sex = trim($_POST["sex"]);
+                                        $sUniqueId = trim($_POST["sUniqueId"]);
+
+                                        $degree_date = trim($_POST["degree_date"]);
+
+                                        
+
+                                    
+
                                     
                                     
                                     
-                                    $Staff->insertUser($first_name,$last_name,$phone_No,$address,$staff_role,$myImage,$email,$password,$pass);
+                                    $Staff->insertUser($first_name,$last_name,$phone_No,$address,$staff_role,$myImage,$email,$pass,$sex,$qual, $annex_id, $fos, $sUniqueId, $degree_date);
                                     }
                         ?>
     
@@ -126,8 +143,9 @@ License: For each use you must have a valid license purchased only from above li
                                 <label class="form-label fw-bolder text-dark fs-6">Last Name</label>
                                 <input class="form-control form-control-lg form-control-solid" type="text" placeholder="" id="last_name" name="last_name" autocomplete="off" /><br><br>
                             </div>
+                        
 
-
+                        <div class="row fv-row mb-7">
                             <div class="col-xl-6">
                                 <label class="form-label fw-bolder text-dark fs-6">Phone Num</label>
                                 <input class="form-control form-control-lg form-control-solid" type="text" placeholder="" id="phone_No" name="phone_No" autocomplete="off" />
@@ -139,7 +157,8 @@ License: For each use you must have a valid license purchased only from above li
                                 <input class="form-control form-control-lg form-control-solid" type="text" placeholder="" id="address" name="address" autocomplete="off" />
                                 <br><br>
                             </div>
-
+                        </div>
+                        <div class="row fv-row mb-7">
                             <div class="col-xl-6">
                                 <label class="form-label fw-bolder text-dark fs-6">Staff Roles</label>
                                 <select class="form-control form-control-lg form-control-solid" type="text" id="staff_role" name="staff_role" autocomplete="off">
@@ -154,14 +173,67 @@ License: For each use you must have a valid license purchased only from above li
                                 </select>
                             </div>
 
-
-
                             <div class="col-xl-6">
                                 <label class="form-label fw-bolder text-dark fs-6">Select Image</label>
                                 <input class="form-control form-control-lg form-control-solid" type="file" id="myImage" name="myImage"><br><br>
                             </div>
-                            <!--end::Col-->
                         </div>
+
+                        <div class="row fv-row mb-7">
+                            <div class="col-xl-6">
+                                <label class="form-label fw-bolder text-dark fs-6">Discipline</label>
+                                <input class="form-control form-control-lg form-control-solid" type="text" placeholder="" id="fos" name="fos" autocomplete="off" required />
+                                <br><br>
+                            </div>
+
+                            <div class="col-xl-6">
+                                <label class="form-label fw-bolder text-dark fs-6">Qualification</label>
+                                <select class="form-control form-control-lg form-control-solid" type="text" id="qual" name="qual" autocomplete="off" required>
+                                    <option value="">Select Qualification</option>
+                                    <option value="SSCE">SSCE</option>
+                                    <option value="NCE">NCE</option>
+                                    <option value="BSC">BSC</option>
+                                    <option value="BTECH">BTECH</option>
+                                    <option value="Masters">Masters</option>
+                                    <option value="Others">Others</option>
+
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="fv-row mb-7">
+                            <label class="form-label fw-bolder text-dark fs-6">Date Qualification Obtained</label>
+                            <input class="form-control form-control-lg form-control-solid" type="date" placeholder="" id="degree_date" name="degree_date" autocomplete="off"  
+         required/>
+                        </div>
+
+                        <div class="row fv-row mb-7">
+                            <div class="col-xl-6">
+                                <label class="form-label fw-bolder text-dark fs-6">Annex Assigned To</label>
+                                <select class="form-control form-control-lg form-control-solid" id="annex_id" name="annex_id" required>
+                                    <option value=""> Select Annex</option>
+                                    <?php $Annexes->dropdownAnnex(); ?>
+                                </select>
+                                <br><br>
+                            </div>
+
+                            <div class="col-xl-6">
+                                <label class="form-label fw-bolder text-dark fs-6">Sex</label>
+                                <select class="form-control form-control-lg form-control-solid" type="text" id="sex" name="sex" autocomplete="off" required>
+                                    <option value="">Select Gender</option>
+                                    <option value="M">Male</option>
+                                    <option value="F">Female</option>
+                                  
+
+                                </select>
+                            </div>
+                        </div>
+
+
+
+                           
+                            <!--end::Col-->
+                       
                         <!--end::Input group-->
                         <!--begin::Input group-->
                         <div class="fv-row mb-7">
@@ -170,27 +242,21 @@ License: For each use you must have a valid license purchased only from above li
                         </div>
                         <!--end::Input group-->
                         <!--begin::Input group-->
-                        <div class="mb-10 fv-row" data-kt-password-meter="true">
-                            <!--begin::Wrapper-->
-                            <div class="mb-1">
-                                <!--begin::Label-->
-                                <label class="form-label fw-bolder text-dark fs-6">Password</label>
-                                <!--end::Label-->
-                                <!--begin::Input wrapper-->
-                                <div class="position-relative mb-3">
-                                    <input class="form-control form-control-lg form-control-solid" type="password" placeholder="" id="password" name="password" autocomplete="off" />
-
-                                </div>
-                                <!--end::Input wrapper-->
-                                <!--begin::Meter-->
-
-                                <!--end::Meter-->
+                        <div class="row fv-row mb-7">
+                            <div class="col-xl-6">
+                            <?php $unique_id = $GenerateValue->generate_staffid(); ?>
+                                <label class="form-label fw-bolder text-dark fs-6">Staff Id</label>
+                                <input class="form-control form-control-lg form-control-solid" type="text" placeholder="" id="sUniqueId" name="sUniqueId" value="<?php echo $unique_id; ?>" autocomplete="off" disabled />
+                                <br><br>
                             </div>
-                            <!--end::Wrapper-->
-                            <!--begin::Hint-->
 
-                            <!--end::Hint-->
+                            <div class="col-xl-6">
+                            <?php $password = $GenerateValue->generate_random_password(10) ?>
+                                <label class="form-label fw-bolder text-dark fs-6">Password</label>
+                                <input class="form-control form-control-lg form-control-solid" type="text" placeholder="" id="password" name="password" value="<?php echo $password; ?>" autocomplete="off"  disabled/>
+                            </div>
                         </div>
+                       
                         <!--end::Input group=-->
                         <!--begin::Input group-->
 

@@ -12,7 +12,7 @@ License: For each use you must have a valid license purchased only from above li
 -->
 <html lang="en">
 	<!--begin::Head-->
-	<head><base href="../../../">
+	<head><base href="../">
 		<title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by Keenthemes</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
@@ -56,1580 +56,10 @@ License: For each use you must have a valid license purchased only from above li
 					</div>
 					<!--end::Brand-->
 					<!--begin::Aside menu-->
-					<div class="aside-menu flex-column-fluid ps-5 pe-3 mb-9" id="kt_aside_menu">
-						<!--begin::Aside Menu-->
-						<div class="w-100 hover-scroll-overlay-y d-flex pe-2" id="kt_aside_menu_wrapper" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer" data-kt-scroll-wrappers="#kt_aside, #kt_aside_menu, #kt_aside_menu_wrapper" data-kt-scroll-offset="100">
-							<!--begin::Menu-->
-							<div class="menu menu-column menu-rounded fw-bold my-auto" id="#kt_aside_menu" data-kt-menu="true">
-								<div class="menu-item">
-									<a class="menu-link" href="../../demo3/dist/index.html">
-										<span class="menu-icon">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-											<span class="svg-icon svg-icon-5">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="black" />
-													<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-										</span>
-										<span class="menu-title">Dashboard</span>
-									</a>
-								</div>
-								<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-									<span class="menu-link">
-										<span class="menu-icon">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-											<span class="svg-icon svg-icon-5">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="black" />
-													<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-										</span>
-										<span class="menu-title">Crafted</span>
-										<span class="menu-arrow"></span>
-									</span>
-									<div class="menu-sub menu-sub-accordion">
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Pages</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion menu-active-bg">
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Profile</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/profile/overview.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Overview</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/profile/projects.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Projects</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/profile/campaigns.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Campaigns</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/profile/documents.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Documents</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/profile/followers.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Followers</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/profile/activity.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Activity</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Wizards</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/wizards/horizontal.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Horizontal</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/wizards/vertical.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Vertical</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Search</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/search/horizontal.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Horizontal</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/search/vertical.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Vertical</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Blog</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/blog/home.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Blog Home</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/blog/post.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Blog Post</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/pages/about.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">About Us</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/pages/contact.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Contact Us</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/pages/team.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Our Team</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/pages/licenses.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Licenses</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/pages/sitemap.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Sitemap</span>
-													</a>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Pricing</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/pricing/pricing-1.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Pricing 1</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/pricing/pricing-2.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Pricing 2</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Careers</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/careers/list.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Careers List</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/careers/apply.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Careers Apply</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">FAQ</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/faq/classic.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Classic</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/pages/faq/extended.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Extended</span>
-															</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Account</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion menu-active-bg">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/account/overview.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Overview</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/account/settings.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Settings</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/account/security.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Security</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/account/billing.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Billing</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/account/statements.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Statements</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/account/referrals.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Referrals</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/account/api-keys.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">API Keys</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/account/logs.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Logs</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Authentication</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion menu-active-bg">
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Basic Layout</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/basic/sign-in.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Sign-in</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/basic/sign-up.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Sign-up</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/basic/two-steps.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Two-steps</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/basic/password-reset.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Password Reset</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/basic/new-password.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">New Password</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Aside Layout</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/aside/sign-in.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Sign-in</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/aside/sign-up.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Sign-up</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/aside/two-steps.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Two-step</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/aside/password-reset.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Password Reset</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/aside/new-password.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">New Password</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Dark Layout</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/dark/sign-in.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Sign-in</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/dark/sign-up.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Sign-up</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/dark/two-steps.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Two-steps</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/dark/password-reset.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Password Reset</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/layouts/dark/new-password.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">New Password</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/authentication/extended/multi-steps-sign-up.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Multi-steps Sign-up</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/authentication/extended/free-trial-sign-up.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Free Trial Sign-up</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/authentication/extended/coming-soon.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Coming Soon</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/authentication/general/welcome.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Welcome Message</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/authentication/general/verify-email.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Verify Email</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/authentication/general/password-confirmation.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Password Confirmation</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/authentication/general/deactivation.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Account Deactivation</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/authentication/general/error-404.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Error 404</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/authentication/general/error-500.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Error 500</span>
-													</a>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Email Templates</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/email/verify-email.html" target="blank">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Verify Email</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/email/invitation.html" target="blank">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Account Invitation</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/email/password-reset.html" target="blank">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Password Reset</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/authentication/email/password-change.html" target="blank">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Password Changed</span>
-															</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Modals</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion menu-active-bg">
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">General</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/general/invite-friends.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Invite Friends</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/general/view-users.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">View Users</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/general/upgrade-plan.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Upgrade Plan</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/general/share-earn.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Share &amp; Earn</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Forms</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/forms/new-target.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">New Target</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/forms/new-card.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">New Card</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/forms/new-address.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">New Address</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/forms/create-api-key.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Create API Key</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Wizards</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/wizards/two-factor-authentication.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Two Factor Auth</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/wizards/create-app.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Create App</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/wizards/create-account.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Create Account</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/wizards/create-project.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Create Project</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/wizards/offer-a-deal.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Offer a Deal</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Search</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/search/users.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Users</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/modals/search/select-location.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Select Location</span>
-															</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Widgets</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion menu-active-bg">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/widgets/lists.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Lists</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/widgets/statistics.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Statistics</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/widgets/charts.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Charts</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/widgets/mixed.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Mixed</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/widgets/tables.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Tables</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/widgets/feeds.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Feeds</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
-									<span class="menu-link">
-										<span class="menu-icon">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-											<span class="svg-icon svg-icon-5">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="black" />
-													<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-										</span>
-										<span class="menu-title">Applications</span>
-										<span class="menu-arrow"></span>
-									</span>
-									<div class="menu-sub menu-sub-accordion">
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Projects</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/projects/list.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">My Projects</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/projects/project.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">View Project</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/projects/targets.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Targets</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/projects/budget.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Budget</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/projects/users.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Users</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/projects/files.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Files</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/projects/activity.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Activity</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/projects/settings.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Settings</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">eCommerce</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Catalog</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/ecommerce/catalog/products.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Products</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/ecommerce/catalog/categories.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Categories</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/ecommerce/catalog/add-product.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Add Product</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/ecommerce/catalog/edit-product.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Edit Product</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/ecommerce/catalog/add-category.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Add Category</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/ecommerce/catalog/edit-category.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Edit Category</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="#" title="Coming soon" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Sales</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="#" title="Coming soon" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Customers</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="#" title="Coming soon" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Reports</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="#" title="Coming soon" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Settings</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Customers</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/customers/getting-started.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Getting Started</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/customers/list.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Customer Listing</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/customers/view.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Customer Details</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Subscriptions</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/subscriptions/getting-started.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Getting Started</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/subscriptions/list.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Subscription List</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/subscriptions/add.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Add Subscription</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/subscriptions/view.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">View Subscription</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Invoice Manager</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">View Invoices</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion menu-active-bg">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/invoices/view/invoice-1.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Invoice 1</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/invoices/view/invoice-2.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Invoice 2</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/invoices/create.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Create Invoice</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion mb-1">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">User Management</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion mb-1">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Users</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/user-management/users/list.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Users List</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link active" href="../../demo3/dist/apps/user-management/users/view.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">View User</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Roles</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/user-management/roles/list.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Roles List</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/user-management/roles/view.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">View Role</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/user-management/permissions.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Permissions</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Support Center</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/support-center/overview.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Overview</span>
-													</a>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Tickets</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/support-center/tickets/list.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Tickets List</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/support-center/tickets/view.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">View Ticket</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
-													<span class="menu-link">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Tutorials</span>
-														<span class="menu-arrow"></span>
-													</span>
-													<div class="menu-sub menu-sub-accordion">
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/support-center/tutorials/list.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Tutorials List</span>
-															</a>
-														</div>
-														<div class="menu-item">
-															<a class="menu-link" href="../../demo3/dist/apps/support-center/tutorials/post.html">
-																<span class="menu-bullet">
-																	<span class="bullet bullet-dot"></span>
-																</span>
-																<span class="menu-title">Tutorial Post</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/support-center/faq.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">FAQ</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/support-center/licenses.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Licenses</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/support-center/contact.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Contact Us</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo3/dist/apps/calendar.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Calendar</span>
-											</a>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Chat</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/chat/private.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Private Chat</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/chat/group.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Group Chat</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/chat/drawer.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Drawer Chat</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">File Manager</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/file-manager/folders.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Folders</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/file-manager/files.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Files</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/file-manager/blank.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Blank Directory</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/file-manager/settings.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Settings</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Inbox</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/inbox/listing.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Messages</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/inbox/compose.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Compose</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo3/dist/apps/inbox/reply.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">View &amp; Reply</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="menu-item">
-									<a class="menu-link" href="https://preview.keenthemes.com/metronic8/demo3/layout-builder.html">
-										<span class="menu-icon">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-											<span class="svg-icon svg-icon-5">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="black" />
-													<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-										</span>
-										<span class="menu-title">Layout Builder</span>
-									</a>
-								</div>
-								<div class="menu-item">
-									<a class="menu-link" href="../../demo3/dist/documentation/base/utilities.html">
-										<span class="menu-icon">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-											<span class="svg-icon svg-icon-5">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="black" />
-													<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-										</span>
-										<span class="menu-title">Components</span>
-									</a>
-								</div>
-								<div class="menu-item">
-									<a class="menu-link" href="../../demo3/dist/documentation/getting-started.html">
-										<span class="menu-icon">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-											<span class="svg-icon svg-icon-5">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="black" />
-													<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-										</span>
-										<span class="menu-title">Documentation</span>
-									</a>
-								</div>
-								<div class="menu-item">
-									<a class="menu-link" href="../../demo3/dist/documentation/getting-started/changelog.html">
-										<span class="menu-icon">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-											<span class="svg-icon svg-icon-5">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="black" />
-													<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-										</span>
-										<span class="menu-title">Changelog v8.0.32</span>
-									</a>
-								</div>
-							</div>
-							<!--end::Menu-->
-						</div>
-						<!--end::Aside Menu-->
-					</div>
+										<?php	include_once("../asideMenu/sidebarMenu.html"); ?>
+</div>
 					<!--end::Aside menu-->
+
 					<!--begin::Footer-->
 					<div class="aside-footer flex-column-auto px-9" id="kt_aside_footer">
 						<!--begin::User panel-->
@@ -2785,20 +1215,16 @@ License: For each use you must have a valid license purchased only from above li
 										</li> -->
 										<!--end:::Tab item-->
 										<!--begin:::Tab item-->
-										<!-- <li class="nav-item">
+										<li class="nav-item">
 											<a class="nav-link text-active-primary pb-4" data-bs-toggle="tab" href="#kt_user_view_overview_events_and_logs_tab">Events &amp; Logs</a>
-										</li> -->
+										</li>
 										<!--end:::Tab item-->
 										<!--begin:::Tab item-->
 										<li class="nav-item ms-auto">
 											<!--begin::Action menu-->
 											<!-- <a href="#" class="btn btn-primary ps-7" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">Actions -->
 											<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-											<span class="svg-icon svg-icon-2 me-0">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="black" />
-												</svg>
-											</span>
+											
 											<!--end::Svg Icon--></a>
 											<!--begin::Menu-->
 											<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold py-4 w-250px fs-6" data-kt-menu="true">
@@ -2832,7 +1258,1194 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin:::Tab pane-->
 										<div class="tab-pane fade show active" id="kt_user_view_overview_tab" role="tabpanel">
 											<!--begin::Card-->
-											
+											<div class="card card-flush mb-6 mb-xl-9">
+												<!--begin::Card header-->
+												<div class="card-header mt-6">
+													<!--begin::Card title-->
+													<div class="card-title flex-column">
+														<h2 class="mb-1">User's Schedule</h2>
+														<div class="fs-6 fw-bold text-muted">2 upcoming meetings</div>
+													</div>
+													<!--end::Card title-->
+													<!--begin::Card toolbar-->
+													<div class="card-toolbar">
+														<button type="button" class="btn btn-light-primary btn-sm" data-bs-toggle="modal" data-bs-target="#kt_modal_add_schedule">
+														<!--SVG file not found: media/icons/duotune/art/art008.svg-->
+														Add Schedule</button>
+													</div>
+													<!--end::Card toolbar-->
+												</div>
+												<!--end::Card header-->
+												<!--begin::Card body-->
+												<div class="card-body p-9 pt-4">
+													<!--begin::Dates-->
+													<ul class="nav nav-pills d-flex flex-nowrap hover-scroll-x py-2">
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_0">
+																<span class="opacity-50 fs-7 fw-bold">Su</span>
+																<span class="fs-6 fw-boldest">21</span>
+															</a>
+														</li>
+														<!--end::Date-->
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary active" data-bs-toggle="tab" href="#kt_schedule_day_1">
+																<span class="opacity-50 fs-7 fw-bold">Mo</span>
+																<span class="fs-6 fw-boldest">22</span>
+															</a>
+														</li>
+														<!--end::Date-->
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_2">
+																<span class="opacity-50 fs-7 fw-bold">Tu</span>
+																<span class="fs-6 fw-boldest">23</span>
+															</a>
+														</li>
+														<!--end::Date-->
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_3">
+																<span class="opacity-50 fs-7 fw-bold">We</span>
+																<span class="fs-6 fw-boldest">24</span>
+															</a>
+														</li>
+														<!--end::Date-->
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_4">
+																<span class="opacity-50 fs-7 fw-bold">Th</span>
+																<span class="fs-6 fw-boldest">25</span>
+															</a>
+														</li>
+														<!--end::Date-->
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_5">
+																<span class="opacity-50 fs-7 fw-bold">Fr</span>
+																<span class="fs-6 fw-boldest">26</span>
+															</a>
+														</li>
+														<!--end::Date-->
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_6">
+																<span class="opacity-50 fs-7 fw-bold">Sa</span>
+																<span class="fs-6 fw-boldest">27</span>
+															</a>
+														</li>
+														<!--end::Date-->
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_7">
+																<span class="opacity-50 fs-7 fw-bold">Su</span>
+																<span class="fs-6 fw-boldest">28</span>
+															</a>
+														</li>
+														<!--end::Date-->
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_8">
+																<span class="opacity-50 fs-7 fw-bold">Mo</span>
+																<span class="fs-6 fw-boldest">29</span>
+															</a>
+														</li>
+														<!--end::Date-->
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_9">
+																<span class="opacity-50 fs-7 fw-bold">Tu</span>
+																<span class="fs-6 fw-boldest">30</span>
+															</a>
+														</li>
+														<!--end::Date-->
+														<!--begin::Date-->
+														<li class="nav-item me-1">
+															<a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-40px me-2 py-4 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_10">
+																<span class="opacity-50 fs-7 fw-bold">We</span>
+																<span class="fs-6 fw-boldest">31</span>
+															</a>
+														</li>
+														<!--end::Date-->
+													</ul>
+													<!--end::Dates-->
+													<!--begin::Tab Content-->
+													<div class="tab-content">
+														<!--begin::Day-->
+														<div id="kt_schedule_day_0" class="tab-pane fade show">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Project Review &amp; Testing</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">David Stevenson</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Creative Content Initiative</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Yannis Gloverson</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Team Backlog Grooming Session</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Naomi Hayabusa</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">13:00 - 14:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Dashboard UI/UX Design Review</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Naomi Hayabusa</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">16:30 - 17:30
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Creative Content Initiative</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Sean Bean</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+														<!--begin::Day-->
+														<div id="kt_schedule_day_1" class="tab-pane fade show active">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">16:30 - 17:30
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Sales Pitch Proposal</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Peter Marcus</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Team Backlog Grooming Session</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Mark Randall</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">12:00 - 13:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Marketing Campaign Discussion</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Naomi Hayabusa</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+														<!--begin::Day-->
+														<div id="kt_schedule_day_2" class="tab-pane fade show">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">13:00 - 14:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Marketing Campaign Discussion</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Kendell Trevor</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Sales Pitch Proposal</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Bob Harris</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">13:00 - 14:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Weekly Team Stand-Up</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">David Stevenson</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+														<!--begin::Day-->
+														<div id="kt_schedule_day_3" class="tab-pane fade show">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">16:30 - 17:30
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Sales Pitch Proposal</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Caleb Donaldson</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">14:30 - 15:30
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Weekly Team Stand-Up</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Naomi Hayabusa</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">11:00 - 11:45
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Project Review &amp; Testing</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Terry Robins</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Creative Content Initiative</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Mark Randall</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">16:30 - 17:30
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Marketing Campaign Discussion</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Naomi Hayabusa</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+														<!--begin::Day-->
+														<div id="kt_schedule_day_4" class="tab-pane fade show">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Lunch &amp; Learn Catch Up</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Sean Bean</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">9 Degree Project Estimation Meeting</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Peter Marcus</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">12:00 - 13:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Development Team Capacity Review</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Sean Bean</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+														<!--begin::Day-->
+														<div id="kt_schedule_day_5" class="tab-pane fade show">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">9:00 - 10:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Marketing Campaign Discussion</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">David Stevenson</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">9:00 - 10:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Development Team Capacity Review</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Yannis Gloverson</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Creative Content Initiative</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Terry Robins</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">16:30 - 17:30
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Dashboard UI/UX Design Review</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Michael Walters</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">12:00 - 13:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Weekly Team Stand-Up</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Karina Clarke</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+														<!--begin::Day-->
+														<div id="kt_schedule_day_6" class="tab-pane fade show">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Sales Pitch Proposal</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Bob Harris</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">11:00 - 11:45
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Project Review &amp; Testing</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Walter White</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">13:00 - 14:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Team Backlog Grooming Session</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Sean Bean</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+														<!--begin::Day-->
+														<div id="kt_schedule_day_7" class="tab-pane fade show">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">12:00 - 13:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Dashboard UI/UX Design Review</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Kendell Trevor</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">11:00 - 11:45
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">9 Degree Project Estimation Meeting</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Naomi Hayabusa</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">16:30 - 17:30
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Lunch &amp; Learn Catch Up</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Bob Harris</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">11:00 - 11:45
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Sales Pitch Proposal</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Terry Robins</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+														<!--begin::Day-->
+														<div id="kt_schedule_day_8" class="tab-pane fade show">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">11:00 - 11:45
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Development Team Capacity Review</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Karina Clarke</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">12:00 - 13:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Creative Content Initiative</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Karina Clarke</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">16:30 - 17:30
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Creative Content Initiative</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Kendell Trevor</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+														<!--begin::Day-->
+														<div id="kt_schedule_day_9" class="tab-pane fade show">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">9:00 - 10:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Marketing Campaign Discussion</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Bob Harris</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">10:00 - 11:00
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Sales Pitch Proposal</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Bob Harris</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">11:00 - 11:45
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Development Team Capacity Review</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Bob Harris</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+														<!--begin::Day-->
+														<div id="kt_schedule_day_10" class="tab-pane fade show">
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">11:00 - 11:45
+																	<span class="fs-7 text-muted text-uppercase">am</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">9 Degree Project Estimation Meeting</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Mark Randall</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">13:00 - 14:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Lunch &amp; Learn Catch Up</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">David Stevenson</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">12:00 - 13:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Marketing Campaign Discussion</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Caleb Donaldson</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+															<!--begin::Time-->
+															<div class="d-flex flex-stack position-relative mt-6">
+																<!--begin::Bar-->
+																<div class="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+																<!--end::Bar-->
+																<!--begin::Info-->
+																<div class="fw-bold ms-5">
+																	<!--begin::Time-->
+																	<div class="fs-7 mb-1">13:00 - 14:00
+																	<span class="fs-7 text-muted text-uppercase">pm</span></div>
+																	<!--end::Time-->
+																	<!--begin::Title-->
+																	<a href="#" class="fs-5 fw-bolder text-dark text-hover-primary mb-2">Lunch &amp; Learn Catch Up</a>
+																	<!--end::Title-->
+																	<!--begin::User-->
+																	<div class="fs-7 text-muted">Lead by
+																	<a href="#">Kendell Trevor</a></div>
+																	<!--end::User-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Action-->
+																<a href="#" class="btn btn-light bnt-active-light-primary btn-sm">View</a>
+																<!--end::Action-->
+															</div>
+															<!--end::Time-->
+														</div>
+														<!--end::Day-->
+													</div>
+													<!--end::Tab Content-->
+												</div>
+												<!--end::Card body-->
+											</div>
 											<!--end::Card-->
 											<!--begin::Tasks-->
 											<div class="card card-flush mb-6 mb-xl-9">
@@ -3706,295 +3319,14 @@ License: For each use you must have a valid license purchased only from above li
 											</div>
 											<!--end::Card-->
 											<!--begin::Card-->
-											<div class="card pt-4 mb-6 mb-xl-9">
-												<!--begin::Card header-->
-												<div class="card-header border-0">
-													<!--begin::Card title-->
-													<div class="card-title">
-														<h2>Logs</h2>
-													</div>
-													<!--end::Card title-->
-													<!--begin::Card toolbar-->
-													<div class="card-toolbar">
-														<!--begin::Button-->
-														<button type="button" class="btn btn-sm btn-light-primary">
-														<!--begin::Svg Icon | path: icons/duotune/files/fil021.svg-->
-														<span class="svg-icon svg-icon-3">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path opacity="0.3" d="M19 15C20.7 15 22 13.7 22 12C22 10.3 20.7 9 19 9C18.9 9 18.9 9 18.8 9C18.9 8.7 19 8.3 19 8C19 6.3 17.7 5 16 5C15.4 5 14.8 5.2 14.3 5.5C13.4 4 11.8 3 10 3C7.2 3 5 5.2 5 8C5 8.3 5 8.7 5.1 9H5C3.3 9 2 10.3 2 12C2 13.7 3.3 15 5 15H19Z" fill="black" />
-																<path d="M13 17.4V12C13 11.4 12.6 11 12 11C11.4 11 11 11.4 11 12V17.4H13Z" fill="black" />
-																<path opacity="0.3" d="M8 17.4H16L12.7 20.7C12.3 21.1 11.7 21.1 11.3 20.7L8 17.4Z" fill="black" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->Download Report</button>
-														<!--end::Button-->
-													</div>
-													<!--end::Card toolbar-->
-												</div>
-												<!--end::Card header-->
-												<!--begin::Card body-->
-												<div class="card-body py-0">
-													<!--begin::Table wrapper-->
-													<div class="table-responsive">
-														<!--begin::Table-->
-														<table class="table align-middle table-row-dashed fw-bold text-gray-600 fs-6 gy-5" id="kt_table_users_logs">
-															<!--begin::Table body-->
-															<tbody>
-																<!--begin::Table row-->
-																<tr>
-																	<!--begin::Badge=-->
-																	<td class="min-w-70px">
-																		<div class="badge badge-light-success">200 OK</div>
-																	</td>
-																	<!--end::Badge=-->
-																	<!--begin::Status=-->
-																	<td>POST /v1/invoices/in_5537_5783/payment</td>
-																	<!--end::Status=-->
-																	<!--begin::Timestamp=-->
-																	<td class="pe-0 text-end min-w-200px">05 May 2021, 8:43 pm</td>
-																	<!--end::Timestamp=-->
-																</tr>
-																<!--end::Table row-->
-																<!--begin::Table row-->
-																<tr>
-																	<!--begin::Badge=-->
-																	<td class="min-w-70px">
-																		<div class="badge badge-light-danger">500 ERR</div>
-																	</td>
-																	<!--end::Badge=-->
-																	<!--begin::Status=-->
-																	<td>POST /v1/invoice/in_5024_7078/invalid</td>
-																	<!--end::Status=-->
-																	<!--begin::Timestamp=-->
-																	<td class="pe-0 text-end min-w-200px">05 May 2021, 5:30 pm</td>
-																	<!--end::Timestamp=-->
-																</tr>
-																<!--end::Table row-->
-																<!--begin::Table row-->
-																<tr>
-																	<!--begin::Badge=-->
-																	<td class="min-w-70px">
-																		<div class="badge badge-light-success">200 OK</div>
-																	</td>
-																	<!--end::Badge=-->
-																	<!--begin::Status=-->
-																	<td>POST /v1/invoices/in_5814_4071/payment</td>
-																	<!--end::Status=-->
-																	<!--begin::Timestamp=-->
-																	<td class="pe-0 text-end min-w-200px">25 Oct 2021, 6:43 am</td>
-																	<!--end::Timestamp=-->
-																</tr>
-																<!--end::Table row-->
-																<!--begin::Table row-->
-																<tr>
-																	<!--begin::Badge=-->
-																	<td class="min-w-70px">
-																		<div class="badge badge-light-warning">404 WRN</div>
-																	</td>
-																	<!--end::Badge=-->
-																	<!--begin::Status=-->
-																	<td>POST /v1/customer/c_61b9d5bf734bc/not_found</td>
-																	<!--end::Status=-->
-																	<!--begin::Timestamp=-->
-																	<td class="pe-0 text-end min-w-200px">20 Dec 2021, 11:30 am</td>
-																	<!--end::Timestamp=-->
-																</tr>
-																<!--end::Table row-->
-																<!--begin::Table row-->
-																<tr>
-																	<!--begin::Badge=-->
-																	<td class="min-w-70px">
-																		<div class="badge badge-light-success">200 OK</div>
-																	</td>
-																	<!--end::Badge=-->
-																	<!--begin::Status=-->
-																	<td>POST /v1/invoices/in_1664_9554/payment</td>
-																	<!--end::Status=-->
-																	<!--begin::Timestamp=-->
-																	<td class="pe-0 text-end min-w-200px">20 Dec 2021, 5:20 pm</td>
-																	<!--end::Timestamp=-->
-																</tr>
-																<!--end::Table row-->
-															</tbody>
-															<!--end::Table body-->
-														</table>
-														<!--end::Table-->
-													</div>
-													<!--end::Table wrapper-->
-												</div>
-												<!--end::Card body-->
-											</div>
+											
 											<!--end::Card-->
 											<!--begin::Card-->
-											<div class="card pt-4 mb-6 mb-xl-9">
-												<!--begin::Card header-->
-												<div class="card-header border-0">
-													<!--begin::Card title-->
-													<div class="card-title">
-														<h2>Events</h2>
-													</div>
-													<!--end::Card title-->
-													<!--begin::Card toolbar-->
-													<div class="card-toolbar">
-														<!--begin::Button-->
-														<button type="button" class="btn btn-sm btn-light-primary">
-														<!--begin::Svg Icon | path: icons/duotune/files/fil021.svg-->
-														<span class="svg-icon svg-icon-3">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<path opacity="0.3" d="M19 15C20.7 15 22 13.7 22 12C22 10.3 20.7 9 19 9C18.9 9 18.9 9 18.8 9C18.9 8.7 19 8.3 19 8C19 6.3 17.7 5 16 5C15.4 5 14.8 5.2 14.3 5.5C13.4 4 11.8 3 10 3C7.2 3 5 5.2 5 8C5 8.3 5 8.7 5.1 9H5C3.3 9 2 10.3 2 12C2 13.7 3.3 15 5 15H19Z" fill="black" />
-																<path d="M13 17.4V12C13 11.4 12.6 11 12 11C11.4 11 11 11.4 11 12V17.4H13Z" fill="black" />
-																<path opacity="0.3" d="M8 17.4H16L12.7 20.7C12.3 21.1 11.7 21.1 11.3 20.7L8 17.4Z" fill="black" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->Download Report</button>
-														<!--end::Button-->
-													</div>
-													<!--end::Card toolbar-->
-												</div>
-												<!--end::Card header-->
-												<!--begin::Card body-->
-												<div class="card-body py-0">
-													<!--begin::Table-->
-													<table class="table align-middle table-row-dashed fs-6 text-gray-600 fw-bold gy-5" id="kt_table_customers_events">
-														<!--begin::Table body-->
-														<tbody>
-															<!--begin::Table row-->
-															<tr>
-																<!--begin::Event=-->
-																<td class="min-w-400px">Invoice
-																<a href="#" class="fw-bolder text-gray-900 text-hover-primary me-1">#DER-45645</a>status has changed from
-																<span class="badge badge-light-info me-1">In Progress</span>to
-																<span class="badge badge-light-primary">In Transit</span></td>
-																<!--end::Event=-->
-																<!--begin::Timestamp=-->
-																<td class="pe-0 text-gray-600 text-end min-w-200px">15 Apr 2021, 6:43 am</td>
-																<!--end::Timestamp=-->
-															</tr>
-															<!--end::Table row-->
-															<!--begin::Table row-->
-															<tr>
-																<!--begin::Event=-->
-																<td class="min-w-400px">Invoice
-																<a href="#" class="fw-bolder text-gray-900 text-hover-primary me-1">#LOP-45640</a>has been
-																<span class="badge badge-light-danger">Declined</span></td>
-																<!--end::Event=-->
-																<!--begin::Timestamp=-->
-																<td class="pe-0 text-gray-600 text-end min-w-200px">21 Feb 2021, 2:40 pm</td>
-																<!--end::Timestamp=-->
-															</tr>
-															<!--end::Table row-->
-															<!--begin::Table row-->
-															<tr>
-																<!--begin::Event=-->
-																<td class="min-w-400px">Invoice
-																<a href="#" class="fw-bolder text-gray-900 text-hover-primary me-1">#SEP-45656</a>status has changed from
-																<span class="badge badge-light-warning me-1">Pending</span>to
-																<span class="badge badge-light-info">In Progress</span></td>
-																<!--end::Event=-->
-																<!--begin::Timestamp=-->
-																<td class="pe-0 text-gray-600 text-end min-w-200px">25 Jul 2021, 8:43 pm</td>
-																<!--end::Timestamp=-->
-															</tr>
-															<!--end::Table row-->
-															<!--begin::Table row-->
-															<tr>
-																<!--begin::Event=-->
-																<td class="min-w-400px">Invoice
-																<a href="#" class="fw-bolder text-gray-900 text-hover-primary me-1">#WER-45670</a>is
-																<span class="badge badge-light-info">In Progress</span></td>
-																<!--end::Event=-->
-																<!--begin::Timestamp=-->
-																<td class="pe-0 text-gray-600 text-end min-w-200px">05 May 2021, 6:05 pm</td>
-																<!--end::Timestamp=-->
-															</tr>
-															<!--end::Table row-->
-															<!--begin::Table row-->
-															<tr>
-																<!--begin::Event=-->
-																<td class="min-w-400px">
-																<a href="#" class="text-gray-600 text-hover-primary me-1">Melody Macy</a>has made payment to
-																<a href="#" class="fw-bolder text-gray-900 text-hover-primary">#XRS-45670</a></td>
-																<!--end::Event=-->
-																<!--begin::Timestamp=-->
-																<td class="pe-0 text-gray-600 text-end min-w-200px">24 Jun 2021, 5:30 pm</td>
-																<!--end::Timestamp=-->
-															</tr>
-															<!--end::Table row-->
-															<!--begin::Table row-->
-															<tr>
-																<!--begin::Event=-->
-																<td class="min-w-400px">
-																<a href="#" class="text-gray-600 text-hover-primary me-1">Melody Macy</a>has made payment to
-																<a href="#" class="fw-bolder text-gray-900 text-hover-primary">#XRS-45670</a></td>
-																<!--end::Event=-->
-																<!--begin::Timestamp=-->
-																<td class="pe-0 text-gray-600 text-end min-w-200px">25 Jul 2021, 9:23 pm</td>
-																<!--end::Timestamp=-->
-															</tr>
-															<!--end::Table row-->
-															<!--begin::Table row-->
-															<tr>
-																<!--begin::Event=-->
-																<td class="min-w-400px">Invoice
-																<a href="#" class="fw-bolder text-gray-900 text-hover-primary me-1">#SEP-45656</a>status has changed from
-																<span class="badge badge-light-warning me-1">Pending</span>to
-																<span class="badge badge-light-info">In Progress</span></td>
-																<!--end::Event=-->
-																<!--begin::Timestamp=-->
-																<td class="pe-0 text-gray-600 text-end min-w-200px">24 Jun 2021, 11:05 am</td>
-																<!--end::Timestamp=-->
-															</tr>
-															<!--end::Table row-->
-															<!--begin::Table row-->
-															<tr>
-																<!--begin::Event=-->
-																<td class="min-w-400px">
-																<a href="#" class="text-gray-600 text-hover-primary me-1">Max Smith</a>has made payment to
-																<a href="#" class="fw-bolder text-gray-900 text-hover-primary">#SDK-45670</a></td>
-																<!--end::Event=-->
-																<!--begin::Timestamp=-->
-																<td class="pe-0 text-gray-600 text-end min-w-200px">25 Oct 2021, 11:30 am</td>
-																<!--end::Timestamp=-->
-															</tr>
-															<!--end::Table row-->
-															<!--begin::Table row-->
-															<tr>
-																<!--begin::Event=-->
-																<td class="min-w-400px">Invoice
-																<a href="#" class="fw-bolder text-gray-900 text-hover-primary me-1">#DER-45645</a>status has changed from
-																<span class="badge badge-light-info me-1">In Progress</span>to
-																<span class="badge badge-light-primary">In Transit</span></td>
-																<!--end::Event=-->
-																<!--begin::Timestamp=-->
-																<td class="pe-0 text-gray-600 text-end min-w-200px">22 Sep 2021, 11:05 am</td>
-																<!--end::Timestamp=-->
-															</tr>
-															<!--end::Table row-->
-															<!--begin::Table row-->
-															<tr>
-																<!--begin::Event=-->
-																<td class="min-w-400px">
-																<a href="#" class="text-gray-600 text-hover-primary me-1">Max Smith</a>has made payment to
-																<a href="#" class="fw-bolder text-gray-900 text-hover-primary">#SDK-45670</a></td>
-																<!--end::Event=-->
-																<!--begin::Timestamp=-->
-																<td class="pe-0 text-gray-600 text-end min-w-200px">05 May 2021, 6:05 pm</td>
-																<!--end::Timestamp=-->
-															</tr>
-															<!--end::Table row-->
-														</tbody>
-														<!--end::Table body-->
-													</table>
-													<!--end::Table-->
-												</div>
-												<!--end::Card body-->
-											</div>
+											
 											<!--end::Card-->
 										</div>
 										<!--end:::Tab pane-->
 									</div>
-									<!--end:::Tab content-->
-								</div>
 								<!--end::Content-->
 							</div>
 							<!--end::Layout-->
