@@ -12,7 +12,7 @@ Class Courses{
 
     private $conn;
 
-    function Courses(){
+    function dropDownCourses(){
       $conn = connect();
       $Course_query  = $conn->prepare("SELECT * FROM `Subjects`");
       $Course_query->execute();

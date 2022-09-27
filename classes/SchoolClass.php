@@ -53,4 +53,18 @@ class SchoolClass
         }
         
     }
+
+    function dropdownClass(){
+        $conn = connect();
+        $user_query  = $conn->prepare("SELECT id, class_name FROM school_class");
+        $user_query->execute();
+
+
+        while($row = $user_query->fetch(PDO::FETCH_ASSOC)){
+            $class_id = $row['id'];
+           $class_name = $row['class_name'];
+
+            echo '<option value=" '. $class_id .'" >'.$class_name.'</option>';
+   }
+    }
 }
